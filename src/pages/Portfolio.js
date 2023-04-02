@@ -4,6 +4,10 @@ import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import DintImage from "../assets/dint.jpg";
+import TextEditorImage from "../assets/Text-Editor.jpg";
+import WorkDayPlanner from "../assets/Work Day Planner.jpg";
+import BookSearch from "../assets/BookSearch.jpg";
 
 function Portfolio() {
   return (
@@ -18,7 +22,7 @@ function Portfolio() {
             <a href="https://did-i-need-that.herokuapp.com/">
               <Card.Header>DINT</Card.Header>
             </a>
-            <Card.Img variant="top" src="./images/dint.jpg"></Card.Img>
+            <Card.Img variant="top" src={DintImage}></Card.Img>
             <Card.Body>
               <Card.Text>
                 Full-stack app for tracking purchases.
@@ -35,7 +39,7 @@ function Portfolio() {
             <a href="https://bensbooksearchengine.herokuapp.com/">
               <Card.Header>Book Search Engine</Card.Header>
             </a>
-            <Card.Img variant="top" src="./images/BookSearch.jpg"></Card.Img>
+            <Card.Img variant="top" src={BookSearch}></Card.Img>
             <Card.Body>
               <Card.Text>
                 Full stack app to search for differnt books
@@ -52,7 +56,7 @@ function Portfolio() {
             <a href="https://bens-text-editor.herokuapp.com/">
               <Card.Header>Text Editor</Card.Header>
             </a>
-            <Card.Img variant="top" src="./images/Text-Editor.jpg"></Card.Img>
+            <Card.Img variant="top" src={TextEditorImage}></Card.Img>
             <Card.Body>
               <Card.Text>
                 Downloadable Text Editor App
@@ -69,7 +73,7 @@ function Portfolio() {
             <a href="https://benmarz10.github.io/Bens-daily-planner/">
               <Card.Header>Planner</Card.Header>
             </a>
-            <Card.Img variant="top" src="./images/Work Day Planner.jpg"></Card.Img>
+            <Card.Img variant="top" src={WorkDayPlanner}></Card.Img>
             <Card.Body>
               <Card.Text>
                 Planner for your Work Day

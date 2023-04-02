@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import AboutMeImage from "../assets/IMG_5718.jpg";
 
 function AboutMe() {
   return (
@@ -10,7 +11,7 @@ function AboutMe() {
       <Row>
         <Col sm style={{ display: "flex", justifyContent: "center" }}>
           <Card style={{ width: "26rem" }} className="text-center">
-            <Card.Img variant="top" src="./images/IMG_5718.jpg"></Card.Img>
+            <Card.Img variant="top" src={AboutMeImage}></Card.Img>
             <Card.Body>
               <Card.Title>About Me</Card.Title>
               <Card.Text>
