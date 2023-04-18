@@ -6,7 +6,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import DintImage from "../assets/dint.jpg";
 import TextEditorImage from "../assets/Text-Editor.jpg";
-import WorkDayPlanner from "../assets/Work Day Planner.jpg";
 import BookSearch from "../assets/BookSearch.jpg";
 import Houndr from "../assets/Houndr.jpg";
 
@@ -57,7 +56,7 @@ function Portfolio() {
             <a href="https://bens-text-editor.herokuapp.com/">
               <Card.Header>Text Editor</Card.Header>
             </a>
-            <Card.Img variant="top" src={Houndr}></Card.Img>
+            <Card.Img variant="top" src={TextEditorImage}></Card.Img>
             <Card.Body>
               <Card.Text>
                 Downloadable Text Editor App
