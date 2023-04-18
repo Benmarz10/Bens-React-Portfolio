@@ -71,23 +71,6 @@ function Portfolio() {
             className="text-center m-3"
             text="dark"
           >
-            <a href="https://benmarz10.github.io/Bens-daily-planner/">
-              <Card.Header>Planner</Card.Header>
-            </a>
-            <Card.Img variant="top" src={WorkDayPlanner}></Card.Img>
-            <Card.Body>
-              <Card.Text>
-                Planner for your Work Day
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card 
-            style={{ width: "36rem" }}
-            className="text-center m-3"
-            text="dark"
-          >
             <a href="https://houndr.herokuapp.com/">
               <Card.Header>Houndr</Card.Header>
             </a>
