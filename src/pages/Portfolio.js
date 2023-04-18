@@ -8,6 +8,7 @@ import DintImage from "../assets/dint.jpg";
 import TextEditorImage from "../assets/Text-Editor.jpg";
 import WorkDayPlanner from "../assets/Work Day Planner.jpg";
 import BookSearch from "../assets/BookSearch.jpg";
+import Houndr from "../assets/Houndr.jpg";
 
 function Portfolio() {
   return (
@@ -56,7 +57,7 @@ function Portfolio() {
             <a href="https://bens-text-editor.herokuapp.com/">
               <Card.Header>Text Editor</Card.Header>
             </a>
-            <Card.Img variant="top" src={TextEditorImage}></Card.Img>
+            <Card.Img variant="top" src={Houndr}></Card.Img>
             <Card.Body>
               <Card.Text>
                 Downloadable Text Editor App
@@ -77,6 +78,23 @@ function Portfolio() {
             <Card.Body>
               <Card.Text>
                 Planner for your Work Day
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card 
+            style={{ width: "36rem" }}
+            className="text-center m-3"
+            text="dark"
+          >
+            <a href="https://houndr.herokuapp.com/">
+              <Card.Header>Houndr</Card.Header>
+            </a>
+            <Card.Img variant="top" src={Houndr}></Card.Img>
+            <Card.Body>
+              <Card.Text>
+                Doggy Date App!
               </Card.Text>
             </Card.Body>
           </Card>
